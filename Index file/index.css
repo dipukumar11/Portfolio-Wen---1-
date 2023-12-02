@@ -1,0 +1,194 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1300px;
+    margin:auto;
+
+}
+.header_section{
+    background-color: #fce0cd;
+    background-image: url(/portfolio-resources-main/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position:bottom right;
+    margin-bottom: 100px;
+    background-size: 600px;
+   
+   
+}
+.banar_img >img{
+ width:400px ;
+
+}
+
+.navSection{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+   
+
+    
+}
+
+
+.manuSection{
+    list-style: none;
+    display: flex;
+    gap:30px;
+    font-size: 15px;
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+     
+}
+#r{
+    color: #FD6E0A;
+}
+.parson_name{
+color: var(--Dark-01, #181818);
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+button{
+width: 120px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FD6E0A;
+color: var(--White-Color, #FFF);
+font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border:none;
+}
+
+.f_name{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.s_name{
+    color: var(--Dark-01, #181818);
+font-family: Open Sans;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.d_name{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+/* .button_section{
+    display: flex;
+} */
+.person_section{
+    display: flex;
+  
+    justify-content: space-around;
+   
+
+}
+.parson_detils{
+    width: 50%;
+  padding-left: 200px;
+}
+
+.main_section{
+    width: 1000px;
+    
+}
+.about_me{
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+
+.content_section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.About_me{
+    padding: 50px;
+    margin-bottom: 100px;
+}
+.About_me > h1{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+
+}
+.About_me > p{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 166.667% */
+    width: 550px;
+    margin-bottom: 20px;
+   
+}
+.What_i_do >h1{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.What_i_do >p{
+    color: var(--Dark-03, #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 166.667% */
+width:700px;
+margin-bottom: 50px;
+}
+
+.card_seciton{
+    display: flex;
+    gap:15px
+   
+}
+.card{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(37, 2, 2, 0.06);
+    padding: 20px;
+}
+.card>h1{
+    font-size: 20px;
+    line-height: 30px;
+
+
+}
+.card>p{
+    font-size: 15px;
+}
