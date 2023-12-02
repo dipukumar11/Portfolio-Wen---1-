@@ -174,7 +174,8 @@ margin-bottom: 50px;
 
 .card_seciton{
     display: flex;
-    gap:15px
+    gap:15px;
+    margin-bottom: 100px;
    
 }
 .card{
@@ -192,3 +193,145 @@ margin-bottom: 50px;
 .card>p{
     font-size: 15px;
 }
+
+.Resume{
+  
+    margin-bottom: 80px;
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.EX_section{
+    display: flex;
+    justify-content:space-between;
+    gap: 25px;
+    
+    padding:20px
+
+}
+/* .Education_section{
+    width:50%;
+    display: block;
+} */
+.ex{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+
+}
+
+.summary{
+    border-bottom: 5px solid  #D1D1D1;
+   
+    
+}
+.summary>p{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+.summary>h3{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.summary>h1{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.BTN{
+    width: 200px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-left: 400px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.f-social{
+    display: flex;
+    width: 150px;
+    justify-items:start;
+}
+footer{
+    background-color: #FFF8F3;
+}
+
+.f-content{
+    max-width: 1000px;
+    display: flex;
+    padding:100px
+    
+}
+.contact{
+    width: 50%;
+}
+.contact>h1{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.contact>p{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+
+}
+
+
+.f-message>h1{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.f-message>input{
+    display: block;
+    width: 361px;
+    height: 44px;
+    flex-shrink: 0;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+textarea{
+    display: block;
+    margin-top: 15px;
+    height: 161px;
+    width: 371px;
+    border-radius: 10px;
+    border:none;
+    margin-bottom: 20px;
+}
+
